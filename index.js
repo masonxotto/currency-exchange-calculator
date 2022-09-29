@@ -15,7 +15,6 @@ request.onload = function() {
     conversion.innerHTML = "Conversion: " + document.getElementById("ex1").value + " to " + document.getElementById("ex2").value + " is " + response.result;
  }              
 
-
 function convert() {
     let from = "from=" + document.getElementById("ex1").value;
     let to = "to=" + document.getElementById("ex2").value;
