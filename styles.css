@@ -1,18 +1,24 @@
+
+html, body{
+   height: 100%;
+}
+
 .main {
-
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.container {
 
+.col {
+    font-weight: bold;
+    font-size: large;
+}
+.row {
+    margin: 10px;
 }
 
-.btn {
-    height: 30px;
-    width: 60px;
-    background-color: rgb(51,51,255);
-    color: white;
-    border-style: none;
-}
 
 #response {
     font-size: 32px;
